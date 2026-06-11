@@ -31,7 +31,17 @@ export default function Nav() {
         <a href="#faq" className="text-[#9da7ba] hover:text-[#c7d3ea] text-sm font-medium transition-colors">שאלות</a>
       </div>
 
-      <a href="#cta" className="bg-[#663af3] hover:bg-[#7a55f5] text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors">
+      <a
+        href="#cta"
+        className="relative text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-300 overflow-hidden"
+        style={{
+          background: 'linear-gradient(145deg, rgba(30,72,220,0.85) 0%, rgba(18,52,190,0.80) 100%)',
+          backdropFilter: 'blur(18px) saturate(160%)',
+          WebkitBackdropFilter: 'blur(18px) saturate(160%)',
+          border: '1px solid rgba(80,130,255,0.40)',
+          boxShadow: '0 4px 24px rgba(22,58,210,0.38), inset 0 1px 0 rgba(255,255,255,0.18)',
+        }}
+      >
         לתיאום שיחה
       </a>
     </nav>
