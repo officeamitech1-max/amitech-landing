@@ -9,10 +9,12 @@ import Why from './components/Why'
 import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import { AmitechNebulaBackground } from './components/AmitechNebulaBackground'
 
 function App() {
   return (
-    <div className="bg-[#05060f] text-[#d8ecf8] min-h-screen" dir="rtl">
+    <div className="relative text-[#d8ecf8] min-h-screen" dir="rtl">
+      <AmitechNebulaBackground />
       <Nav />
       <Hero />
       <Pain />

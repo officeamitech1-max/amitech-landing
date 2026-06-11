@@ -13,8 +13,14 @@ export default function Nav() {
     <nav className={`fixed top-0 inset-x-0 z-50 flex items-center justify-between px-12 py-5 transition-all duration-300 ${
       scrolled ? 'bg-[#05060f]/90 backdrop-blur-xl border-b border-white/[0.06] py-3' : ''
     }`}>
-      <a href="#">
-        <img src="/logo.png" alt="Amitech" className="h-12 w-auto" style={{ mixBlendMode: 'screen' }} />
+      <a href="#" className="flex items-center gap-2.5">
+        <img src="/logo-mark.svg" alt="" className="h-10 w-auto" />
+        <span
+          className="text-[#d8ecf8] font-bold text-lg tracking-tight"
+          style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
+        >
+          Amitech
+        </span>
       </a>
 
       <div className="hidden md:flex items-center gap-8">
