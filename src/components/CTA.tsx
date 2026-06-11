@@ -49,20 +49,20 @@ export default function CTA() {
             className="text-3xl md:text-5xl font-bold leading-tight mb-4"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
           >
-            <span className="text-[#d8ecf8]">מוכן להכניס</span>
+            <span className="text-[#e5efff]">מוכן להכניס</span>
             <br />
             <span
               className="bg-clip-text text-transparent"
-              style={{ backgroundImage: 'linear-gradient(160deg,#d8ecf8,#98c0ef)' }}
+              style={{ backgroundImage: 'linear-gradient(160deg,#e5efff,#98c0ef)' }}
             >
               סדר לעסק שלך?
             </span>
           </motion.h2>
 
-          <motion.p variants={fadeUp} className="text-[#9da7ba] mb-10 text-base leading-relaxed">
+          <motion.p variants={fadeUp} className="text-[#b0bccf] mb-10 text-base leading-relaxed">
             שיחת אפיון ראשונה — ללא עלות וללא התחייבות.
             <br />
-            <span className="text-[#81899b] text-sm">מספר מקומות מוגבל בכל חודש.</span>
+            <span className="text-[#b0bccf] text-sm">מספר מקומות מוגבל בכל חודש.</span>
           </motion.p>
 
           {/* Primary WhatsApp CTA */}
@@ -97,12 +97,12 @@ export default function CTA() {
             {trustSignals.map(({ num, label }) => (
               <motion.div key={label} variants={fadeUp} className="flex flex-col items-center gap-1">
                 <span
-                  className="text-xl md:text-2xl font-bold text-[#d8ecf8]"
+                  className="text-xl md:text-2xl font-bold text-[#e5efff]"
                   style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
                 >
                   {num}
                 </span>
-                <span className="text-xs text-[#81899b] font-mono text-center">{label}</span>
+                <span className="text-xs text-[#b0bccf] font-mono text-center">{label}</span>
               </motion.div>
             ))}
           </motion.div>

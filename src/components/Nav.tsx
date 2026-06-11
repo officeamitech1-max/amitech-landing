@@ -16,7 +16,7 @@ export default function Nav() {
       <a href="#" className="flex items-center gap-2.5">
         <img src="/logo-mark.svg" alt="" className="h-10 w-auto" />
         <span
-          className="text-[#d8ecf8] font-bold text-lg tracking-tight"
+          className="text-[#e5efff] font-bold text-lg tracking-tight"
           style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
         >
           Amitech

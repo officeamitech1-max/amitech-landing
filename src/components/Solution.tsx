@@ -32,7 +32,7 @@ export default function Solution() {
             background: 'linear-gradient(135deg, rgba(102,58,243,0.5) 0%, rgba(63,73,89,0.5) 50%, rgba(102,58,243,0.2) 100%)',
           }}
         >
-          <div className="relative bg-[#2f343e] rounded-2xl p-10 md:p-16 text-center overflow-hidden">
+          <div className="relative bg-[#16181d] rounded-2xl p-10 md:p-16 text-center overflow-hidden">
             {/* Animated iris glow */}
             <div
               className="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-64 pointer-events-none"
@@ -59,18 +59,18 @@ export default function Solution() {
               className="text-3xl md:text-5xl font-bold leading-tight mb-6"
               style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
             >
-              <span className="text-[#d8ecf8]">מערכות מידע, אוטומציות ודשבורדים</span>
+              <span className="text-[#e5efff]">מערכות מידע, אוטומציות ודשבורדים</span>
               <br />
               <span
                 className="bg-clip-text text-transparent"
-                style={{ backgroundImage: 'linear-gradient(160deg,#d8ecf8,#98c0ef)' }}
+                style={{ backgroundImage: 'linear-gradient(160deg,#e5efff,#98c0ef)' }}
               >
                 שמכניסים סדר, שליטה ובהירות
               </span>
             </motion.h2>
 
-            <motion.p variants={fadeUp} className="text-[#81899b] leading-relaxed mb-10 max-w-xl mx-auto">
-              אנחנו לא מוכרים תוכנה מדף. אנחנו מאפיינים את העסק שלך מא׳ עד ת׳, מבינים בדיוק איך הוא עובד, ובונים פתרון שמתאים לך — לא להפך.
+            <motion.p variants={fadeUp} className="text-[#b0bccf] leading-relaxed mb-10 max-w-xl mx-auto">
+              אנחנו לא מוכרים תוכנת מדף. אנחנו מאפיינים את העסק שלך מא׳ עד ת׳, מבינים בדיוק איך הוא עובד, ובונים פתרון שמתאים לך — לא להפך.
             </motion.p>
 
             {/* Outcome checklist */}

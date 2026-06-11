@@ -42,7 +42,7 @@ export default function FAQ() {
         >
           <p className="font-mono tracking-widest text-[#663af3] uppercase text-xs mb-3">שאלות</p>
           <h2
-            className="text-3xl md:text-5xl font-bold text-[#d8ecf8]"
+            className="text-3xl md:text-5xl font-bold text-[#e5efff]"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
           >
             שאלות שעולות בכל שיחה
@@ -70,13 +70,13 @@ export default function FAQ() {
                 onClick={() => setOpen(open === i ? null : i)}
                 className="flex justify-between items-center w-full px-5 py-5 text-right gap-6 group"
               >
-                <span className="text-[#d8ecf8] font-semibold text-lg leading-snug group-hover:text-white transition-colors">
+                <span className="text-[#e5efff] font-semibold text-lg leading-snug group-hover:text-white transition-colors">
                   {q}
                 </span>
                 <motion.span
                   animate={{ rotate: open === i ? 180 : 0 }}
                   transition={{ duration: 0.3, ease }}
-                  className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-white/[0.1] text-[#81899b] group-hover:border-[#663af3]/50 group-hover:text-[#b6d9fc] transition-colors duration-300"
+                  className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-white/[0.1] text-[#b0bccf] group-hover:border-[#663af3]/50 group-hover:text-[#b6d9fc] transition-colors duration-300"
                 >
                   <ChevronDown size={16} />
                 </motion.span>
@@ -92,7 +92,7 @@ export default function FAQ() {
                     transition={{ duration: 0.4, ease }}
                     className="overflow-hidden"
                   >
-                    <p className="text-[#81899b] leading-relaxed px-5 pb-6 text-base">{a}</p>
+                    <p className="text-[#b0bccf] leading-relaxed px-5 pb-6 text-base">{a}</p>
                   </motion.div>
                 )}
               </AnimatePresence>

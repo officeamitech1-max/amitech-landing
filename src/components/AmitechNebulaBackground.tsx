@@ -105,11 +105,11 @@ export function AmitechNebulaBackground() {
         />
       </div>
 
-      {/* ── Soft vignette (reduced opacity so smoke isn't swallowed) ── */}
+      {/* ── Soft vignette ── */}
       <div
         className="absolute inset-0"
         style={{
-          background: 'radial-gradient(ellipse at center, transparent 28%, rgba(0,2,8,0.22) 60%, rgba(0,1,5,0.48) 100%)',
+          background: 'radial-gradient(ellipse at center, transparent 35%, rgba(0,2,8,0.12) 62%, rgba(0,1,5,0.28) 100%)',
         }}
       />
 

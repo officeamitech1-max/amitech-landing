@@ -31,7 +31,7 @@ function WhyItem({ icon: Icon, title, desc, index }: Item & { index: number }) {
         <h3 className="text-[#c7d3ea] font-semibold mb-1 group-hover:text-white transition-colors duration-200">
           {title}
         </h3>
-        <p className="text-[#81899b] text-sm leading-relaxed">{desc}</p>
+        <p className="text-[#b0bccf] text-sm leading-relaxed">{desc}</p>
       </div>
     </motion.div>
   )
@@ -58,14 +58,14 @@ export default function Why() {
           <div>
             <p className="font-mono tracking-widest text-[#663af3] uppercase text-xs mb-3">למה אנחנו</p>
             <h2
-              className="text-3xl md:text-5xl font-bold text-[#d8ecf8] leading-tight"
+              className="text-3xl md:text-5xl font-bold text-[#e5efff] leading-tight"
               style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
             >
               למה עסקים בוחרים ב-Amitech
             </h2>
           </div>
           <p
-            className="text-[#81899b] text-lg md:text-xl leading-relaxed md:text-right border-r md:border-r-0 md:border-r-0 border-transparent"
+            className="text-[#b0bccf] text-lg md:text-xl leading-relaxed md:text-right border-r md:border-r-0 md:border-r-0 border-transparent"
             style={{ borderRightColor: 'rgba(102,58,243,0.3)' }}
           >
             לא מוכרים תוכנה. לא נותנים ייעוץ שנשכח. בונים מערכות שמשנות את האופן שבו העסק שלך עובד — ונשארים איתך אחרי זה.

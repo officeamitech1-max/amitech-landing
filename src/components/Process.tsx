@@ -76,7 +76,7 @@ export default function Process() {
         >
           <p className="font-mono tracking-widest text-[#663af3] uppercase text-xs mb-3">תהליך</p>
           <h2
-            className="text-3xl md:text-5xl font-bold text-[#d8ecf8]"
+            className="text-3xl md:text-5xl font-bold text-[#e5efff]"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
           >
             מ-0 למערכת פועלת — בצעדים ברורים
@@ -101,8 +101,8 @@ export default function Process() {
               >
                 <span className="font-mono text-[#b6d9fc] text-sm font-medium">{num}</span>
               </motion.div>
-              <h3 className="text-[#d8ecf8] font-semibold text-sm mb-2 leading-snug">{title}</h3>
-              <p className="text-[#81899b] text-xs leading-relaxed">{desc}</p>
+              <h3 className="text-[#e5efff] font-semibold text-sm mb-2 leading-snug">{title}</h3>
+              <p className="text-[#b0bccf] text-xs leading-relaxed">{desc}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -124,8 +124,8 @@ export default function Process() {
                 {i < steps.length - 1 && <div className="w-px flex-1 my-2 bg-gradient-to-b from-[#663af3]/60 to-[#3f4959]" />}
               </div>
               <div className="pb-8 pt-2">
-                <h3 className="text-[#d8ecf8] font-semibold mb-1">{title}</h3>
-                <p className="text-[#81899b] text-sm leading-relaxed">{desc}</p>
+                <h3 className="text-[#e5efff] font-semibold mb-1">{title}</h3>
+                <p className="text-[#b0bccf] text-sm leading-relaxed">{desc}</p>
               </div>
             </motion.div>
           ))}

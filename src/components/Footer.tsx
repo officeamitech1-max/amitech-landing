@@ -15,14 +15,14 @@ export default function Footer() {
         <a href="#hero" className="flex items-center gap-2.5">
           <img src="/logo-mark.svg" alt="" className="h-10 w-auto" />
           <span
-            className="text-[#d8ecf8] font-bold text-lg tracking-tight"
+            className="text-[#e5efff] font-bold text-lg tracking-tight"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
           >
             Amitech
           </span>
         </a>
 
-        <p className="text-[#81899b] text-sm text-center">
+        <p className="text-[#b0bccf] text-sm text-center">
           © 2025 Amitech. מערכות מידע ואוטומציות לעסקים.
         </p>
 

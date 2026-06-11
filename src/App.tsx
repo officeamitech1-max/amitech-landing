@@ -13,7 +13,7 @@ import { AmitechNebulaBackground } from './components/AmitechNebulaBackground'
 
 function App() {
   return (
-    <div className="relative text-[#d8ecf8] min-h-screen" dir="rtl">
+    <div className="relative text-[#e5efff] min-h-screen" dir="rtl">
       <AmitechNebulaBackground />
       <Nav />
       <Hero />

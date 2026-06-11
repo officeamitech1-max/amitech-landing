@@ -54,7 +54,7 @@ function ServiceRow({ icon: Icon, title, desc, index }: Service & { index: numbe
         {/* Content */}
         <div className="flex-1 min-w-0">
           <motion.h3
-            animate={{ color: hovered ? '#ffffff' : '#d8ecf8' }}
+            animate={{ color: hovered ? '#ffffff' : '#e5efff' }}
             transition={{ duration: 0.25 }}
             className="text-lg md:text-xl font-semibold leading-snug"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
@@ -69,7 +69,7 @@ function ServiceRow({ icon: Icon, title, desc, index }: Service & { index: numbe
                 animate={{ height: 'auto', opacity: 1, marginTop: 8 }}
                 exit={{ height: 0, opacity: 0, marginTop: 0 }}
                 transition={{ duration: 0.3, ease }}
-                className="hidden md:block text-[#81899b] text-sm leading-relaxed overflow-hidden"
+                className="hidden md:block text-[#c7cdd6] text-sm leading-relaxed overflow-hidden"
               >
                 {desc}
               </motion.p>
@@ -77,7 +77,7 @@ function ServiceRow({ icon: Icon, title, desc, index }: Service & { index: numbe
           </AnimatePresence>
 
           {/* Mobile: always visible */}
-          <p className="md:hidden text-[#81899b] text-sm leading-relaxed mt-2">{desc}</p>
+          <p className="md:hidden text-[#e5efff] text-sm leading-relaxed mt-2">{desc}</p>
         </div>
 
         {/* Icon */}
@@ -112,13 +112,13 @@ export default function Services() {
           <div>
             <p className="font-mono tracking-widest text-[#663af3] uppercase text-xs mb-3">שירותים</p>
             <h2
-              className="text-3xl md:text-5xl font-bold text-[#d8ecf8]"
+              className="text-3xl md:text-5xl font-bold text-[#e5efff]"
               style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
             >
               מה אנחנו בונים בשבילך
             </h2>
           </div>
-          <p className="text-[#81899b] text-sm max-w-xs md:text-right">
+          <p className="text-[#b0bccf] text-sm max-w-xs md:text-right">
             כל פרויקט מתחיל בהבנה — לא בכלים.
           </p>
         </motion.div>

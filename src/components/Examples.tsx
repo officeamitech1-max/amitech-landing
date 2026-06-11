@@ -29,12 +29,12 @@ export default function Examples() {
         >
           <p className="font-mono tracking-widest text-[#663af3] uppercase text-xs mb-3">דוגמאות</p>
           <h2
-            className="text-3xl md:text-5xl font-bold text-[#d8ecf8]"
+            className="text-3xl md:text-5xl font-bold text-[#e5efff]"
             style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
           >
             מה שבנינו לעסקים כמו שלך
           </h2>
-          <p className="text-[#81899b] mt-4 max-w-xl mx-auto">
+          <p className="text-[#b0bccf] mt-4 max-w-xl mx-auto">
             לא תיאורטי, לא תבנית מדף — כל מה שמוצג פה הוא מה שאנחנו בונים בפועל.
           </p>
         </motion.div>
@@ -68,7 +68,7 @@ export default function Examples() {
                   </span>
                   <span
                     className="text-sm font-medium leading-snug transition-colors duration-200 block"
-                    style={{ color: i === active ? '#ffffff' : '#81899b' }}
+                    style={{ color: i === active ? '#ffffff' : '#b0bccf' }}
                   >
                     {e.title}
                   </span>
@@ -111,12 +111,12 @@ export default function Examples() {
                       {examples[active].tag}
                     </span>
                     <h3
-                      className="text-2xl md:text-3xl font-bold text-[#d8ecf8] mb-4 leading-tight"
+                      className="text-2xl md:text-3xl font-bold text-[#e5efff] mb-4 leading-tight"
                       style={{ fontFamily: 'Ellinia CLM, sans-serif' }}
                     >
                       {examples[active].title}
                     </h3>
-                    <p className="text-[#81899b] leading-relaxed text-base max-w-lg">
+                    <p className="text-[#b0bccf] leading-relaxed text-base max-w-lg">
                       {examples[active].desc}
                     </p>
                   </div>
@@ -165,12 +165,12 @@ export default function Examples() {
                   <span className="font-mono text-[#663af3] text-[10px] block mb-1">
                     {String(i + 1).padStart(2, '0')} · {e.tag}
                   </span>
-                  <span className="text-[#d8ecf8] font-semibold text-sm leading-snug block">{e.title}</span>
+                  <span className="text-[#e5efff] font-semibold text-sm leading-snug block">{e.title}</span>
                 </div>
                 <motion.span
                   animate={{ rotate: mobileOpen === i ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
-                  className="text-[#81899b] flex-shrink-0"
+                  className="text-[#b0bccf] flex-shrink-0"
                 >
                   <ChevronDown size={16} />
                 </motion.span>
@@ -184,7 +184,7 @@ export default function Examples() {
                     transition={{ duration: 0.35, ease }}
                     className="overflow-hidden"
                   >
-                    <p className="text-[#81899b] text-sm leading-relaxed px-5 py-4 bg-[#252830]">{e.desc}</p>
+                    <p className="text-[#b0bccf] text-sm leading-relaxed px-5 py-4 bg-[#252830]">{e.desc}</p>
                   </motion.div>
                 )}
               </AnimatePresence>
