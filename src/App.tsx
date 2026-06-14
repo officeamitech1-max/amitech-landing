@@ -4,6 +4,7 @@ import Pain from './components/Pain'
 import Solution from './components/Solution'
 import Services from './components/Services'
 import Process from './components/Process'
+import MidCTA from './components/MidCTA'
 import Examples from './components/Examples'
 import Why from './components/Why'
 import FAQ from './components/FAQ'
@@ -21,6 +22,7 @@ function App() {
       <Solution />
       <Services />
       <Process />
+      <MidCTA />
       <Examples />
       <Why />
       <FAQ />

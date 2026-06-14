@@ -35,7 +35,7 @@ export default function Examples() {
             מה שבנינו לעסקים כמו שלך
           </h2>
           <p className="text-[#b0bccf] mt-4 max-w-xl mx-auto">
-            לא תיאורטי, לא תבנית מדף — כל מה שמוצג פה הוא מה שאנחנו בונים בפועל.
+            לא תיאורטי — כל מה שמוצג פה הוא מה שאנחנו בונים בפועל.
           </p>
         </motion.div>
 
